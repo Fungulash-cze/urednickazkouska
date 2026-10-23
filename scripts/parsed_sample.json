@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "question": "okruh – Organizace a činnost veřejné správy\nÚstavní zákon č. 1/1993 Sb.,\nÚstava České republiky, ve znění\npozdějších předpisů\n1. Přijaté zákony podepisuje:",
+    "options": {
+      "a": "Předseda Poslanecké sněmovny, prezident republiky a předseda vlády.",
+      "b": "Předseda vlády a prezident republiky.",
+      "c": "Předseda Senátu, předseda Poslanecké sněmovny a prezident republiky."
+    },
+    "correct": "a",
+    "explanation": "Čl. 51\nPřijaté zákony podepisuje předseda Poslanecké sněmovny, prezident republiky a předseda vlády.",
+    "okruhId": 1,
+    "okruhTitle": "1. okruh – Organizace a činnost veřejné správy"
+  },
+  {
+    "id": 2,
+    "question": "Vyhlášené mezinárodní\nsmlouvy, k jejichž ratifikaci dal Parlament souhlas a jimiž je\nČeská republika vázána, jsou\nsoučástí právního řádu;\nstanoví-li mezinárodní smlouva něco jiného\nnež zákon:",
+    "options": {
+      "a": "Použije se národní úprava.",
+      "b": "Rozhodne o použití svým usnesením vláda.",
+      "c": "Použije se mezinárodní smlouva."
+    },
+    "correct": "c",
+    "explanation": "Čl. 10\nVyhlášené\nmezinárodní smlouvy, k jejichž ratifikaci dal Parlament\nsouhlas a jimiž je Česká republika vázána, jsou\nsoučástí právního řádu;\nstanoví-li mezinárodní smlouva něco jiného\nnež zákon, použije se mezinárodní smlouva.",
+    "okruhId": 1,
+    "okruhTitle": "1. okruh – Organizace a činnost veřejné správy"
+  },
+  {
+    "id": 3,
+    "question": "Prezidentem republiky:",
+    "options": {
+      "a": "Nemůže být zvolen občan, kterému je 40 let.",
+      "b": "Nemůže nikdo být zvolen více než dvakrát.",
+      "c": "Nemůže nikdo být zvolen více než dvakrát za sebou."
+    },
+    "correct": "c",
+    "explanation": "Čl. 57\n(1)   Prezidentem republiky může být zvolen občan, který je volitelný do Senátu.\n(2)   Nikdo nemůže být zvolen více než dvakrát za sebou.",
+    "okruhId": 1,
+    "okruhTitle": "1. okruh – Organizace a činnost veřejné správy"
+  },
+  {
+    "id": 4,
+    "question": "Mandát poslance nebo senátora vzniká:",
+    "options": {
+      "a": "Složením slibu do rukou předsedy Senátu.",
+      "b": "Zvolením.",
+      "c": "Složením slibu do rukou prezidenta republiky."
+    },
+    "correct": "b",
+    "explanation": "Čl. 19\n(3)   Mandát poslance nebo senátora vzniká zvolením.",
+    "okruhId": 1,
+    "okruhTitle": "1. okruh – Organizace a činnost veřejné správy"
+  },
+  {
+    "id": 5,
+    "question": "Zákonodárná moc v České republice náleží:",
+    "options": {
+      "a": "Parlamentu a vládě.",
+      "b": "Parlamentu.",
+      "c": "Parlamentu a zastupitelstvům krajů."
+    },
+    "correct": "b",
+    "explanation": "Čl. 15\n(1)   Zákonodárná moc v České republice náleží Parlamentu.",
+    "okruhId": 1,
+    "okruhTitle": "1. okruh – Organizace a činnost veřejné správy"
+  }
+]

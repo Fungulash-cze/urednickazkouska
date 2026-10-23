@@ -1,0 +1,6 @@
+{
+  "name": "Úřednická zkouška – Příprava na obecnou část (300 otázek)",
+  "description": "Kompletní interaktivní příprava na obecnou část úřednické zkoušky se všemi 300 oficiálními otázkami, zdůvodněními, citacemi zákonů, simulací ostrého testu a kartičkami.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
