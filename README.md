@@ -22,7 +22,7 @@ Aplikace funguje 100% na straně klienta (offline ready), bez nutnosti externíh
 
 2. **Simulace ostré zkoušky**
    - **30 náhodně vybraných otázek** v přesném poměru okruhů dle metodiky MV ČR.
-   - **Časový limit 40 minut** s odpočtem a varováním při vypršení limitu.
+   - **Časový limit 30 minut** s odpočtem a varováním při vypršení limitu.
    - Možnost **označit otázky k revizi (vlaječka)** před odevzdáním.
    - Oficiální kritérium: **úspěch při zisku alespoň 23 bodů ze 30 (75 %)**.
    - Podrobný výsledkový certifikát, rozpad skóre po okruzích a rozbor chyb s možností **uložit všechny chybné otázky do záložek jedním klikem**.
@@ -41,17 +41,14 @@ Aplikace funguje 100% na straně klienta (offline ready), bez nutnosti externíh
    - Hledání podle libovolného klíčového slova v otázkách, možnostech i v textech paragrafů (např. *„zkušební doba“*, *„prezident“*, *„odvolání“*, *„50 000“*).
    - Rychlé zkopírování otázky a citace do schránky pro vlastní studijní poznámky.
 
-6. **Tahák klíčových lhůt a čísel**
-   - Přehledné shrnutí nejčastěji chybovaných lhůt, věkových hranic, počtů a sídel institucí s přímými prokliky na související otázky.
-
-7. **Tmavý režim (Dark mode)**
+6. **Tmavý režim (Dark mode)**
    - Plnohodnotný světlý i tmavý režim šetrný k očím při večerním studiu.
    - Automatická detekce preferencí systému a uložení volby uživatele.
 
-8. **Předčítání nahlas (Text-to-Speech)**
+7. **Předčítání nahlas (Text-to-Speech)**
    - Hlasová syntéza v češtině pro poslech otázek při dojíždění či odpočinku očí.
 
-9. **Statistika, Chybotéka a správa dat**
+8. **Statistika, Chybotéka a správa dat**
    - Sledování celkového pokroku a úspěšnosti v jednotlivých okruzích.
    - Speciální režim *„Procvičit pouze chyby“*.
    - Možnost **exportovat zálohu pokroku do JSON souboru** a opětovně ji nahrát do jiného zařízení.

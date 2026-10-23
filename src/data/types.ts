@@ -60,4 +60,4 @@ export interface UserStats {
   streakDays: number;
 }
 
-export type AppView = 'practice' | 'exam' | 'flashcards' | 'catalog' | 'stats' | 'cheatsheet' | 'answers_list';
+export type AppView = 'practice' | 'exam' | 'flashcards' | 'catalog' | 'stats' | 'answers_list';

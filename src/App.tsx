@@ -22,7 +22,6 @@ import { ExamSimulationMode } from './components/ExamSimulationMode';
 import { FlashcardsMode } from './components/FlashcardsMode';
 import { CatalogMode } from './components/CatalogMode';
 import { StatsView } from './components/StatsView';
-import { CheatSheetView } from './components/CheatSheetView';
 import { AnswersListView } from './components/AnswersListView';
 import { Scale } from 'lucide-react';
 
@@ -175,9 +174,6 @@ export default function App() {
           />
         )}
 
-        {currentView === 'cheatsheet' && (
-          <CheatSheetView onJumpToQuestion={handleJumpToPractice} />
-        )}
 
         {currentView === 'stats' && (
           <StatsView
@@ -191,8 +187,8 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-8 text-xs text-slate-500 dark:text-slate-400 no-print transition-colors">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <footer className="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-6 text-xs text-slate-500 dark:text-slate-400 no-print transition-colors">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center">
           <div className="flex items-center gap-2">
             <Scale className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
             <span className="font-semibold text-slate-700 dark:text-slate-200">
@@ -200,12 +196,6 @@ export default function App() {
             </span>
             <span aria-hidden="true" className="text-slate-300 dark:text-slate-700">·</span>
             <span>Všech 300 oficiálních otázek</span>
-          </div>
-
-          <div className="flex items-center gap-4 text-slate-400 dark:text-slate-500">
-            <span>Zdroj otázek a zdůvodnění: svata-cesta.cz / MV ČR</span>
-            <span aria-hidden="true" className="text-slate-300 dark:text-slate-700">·</span>
-            <span>Lokální ukládání pokroku v prohlížeči</span>
           </div>
         </div>
       </footer>

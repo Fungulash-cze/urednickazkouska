@@ -7,7 +7,6 @@ import {
   Search,
   BarChart3,
   Bookmark,
-  FileText,
   CheckCircle2,
   Sun,
   Moon
@@ -116,18 +115,6 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <button
-              onClick={() => onSelectView('cheatsheet')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md whitespace-nowrap transition-colors cursor-pointer ${
-                currentView === 'cheatsheet'
-                  ? 'bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white font-semibold'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-800/60'
-              }`}
-            >
-              <FileText className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-              <span>Tahák lhůt</span>
-            </button>
-
-            <button
               onClick={() => onSelectView('stats')}
               className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md whitespace-nowrap transition-colors cursor-pointer ${
                 currentView === 'stats'
@@ -166,13 +153,6 @@ export const Header: React.FC<HeaderProps> = ({
                 <span className="tabular-nums">{bookmarkedCount}</span>
               </button>
             )}
-
-            <button
-              onClick={() => onSelectView('exam')}
-              className="px-3.5 py-2 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors whitespace-nowrap shadow-xs focus:ring-2 focus:ring-indigo-500 focus:ring-offset-1 focus:outline-hidden cursor-pointer"
-            >
-              Simulace zkoušky
-            </button>
           </div>
         </div>
       </div>
@@ -208,12 +188,6 @@ export const Header: React.FC<HeaderProps> = ({
           className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap ${currentView === 'catalog' ? 'bg-indigo-600 text-white' : 'text-slate-700 dark:text-slate-300'}`}
         >
           Katalog
-        </button>
-        <button
-          onClick={() => onSelectView('cheatsheet')}
-          className={`px-2.5 py-1 rounded-md font-medium whitespace-nowrap ${currentView === 'cheatsheet' ? 'bg-indigo-600 text-white' : 'text-slate-700 dark:text-slate-300'}`}
-        >
-          Tahák
         </button>
         <button
           onClick={() => onSelectView('stats')}

@@ -34,7 +34,7 @@ export const ExamSimulationMode: React.FC<ExamSimulationModeProps> = ({
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, OptionKey>>({});
   const [flagged, setFlagged] = useState<number[]>([]);
-  const [timeRemaining, setTimeRemaining] = useState<number>(40 * 60); // 40 minutes in seconds
+  const [timeRemaining, setTimeRemaining] = useState<number>(30 * 60); // 30 minutes in seconds
   const [isTimed, setIsTimed] = useState<boolean>(true);
   const [lastResult, setLastResult] = useState<ExamResult | null>(null);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState<boolean>(false);
@@ -64,7 +64,7 @@ export const ExamSimulationMode: React.FC<ExamSimulationModeProps> = ({
     setCurrentIndex(0);
     setUserAnswers({});
     setFlagged([]);
-    setTimeRemaining(40 * 60);
+    setTimeRemaining(30 * 60);
     setTestState('active');
     setShowSubmitConfirm(false);
   };
@@ -87,7 +87,7 @@ export const ExamSimulationMode: React.FC<ExamSimulationModeProps> = ({
   };
 
   const handleSubmitExam = () => {
-    const timeSpent = 40 * 60 - timeRemaining;
+    const timeSpent = 30 * 60 - timeRemaining;
     let score = 0;
 
     const answersDetail = examQuestions.map((q) => {
@@ -206,7 +206,7 @@ export const ExamSimulationMode: React.FC<ExamSimulationModeProps> = ({
                 Časový limit
               </span>
               <span className="text-2xl font-bold text-slate-900 dark:text-white tabular-nums mt-1 block">
-                40 minut
+                30 minut
               </span>
               <span className="text-xs text-slate-500 dark:text-slate-400 mt-1 block">
                 Standardní časový limit
@@ -247,7 +247,7 @@ export const ExamSimulationMode: React.FC<ExamSimulationModeProps> = ({
                 onChange={(e) => setIsTimed(e.target.checked)}
                 className="w-4 h-4 rounded-sm border-slate-300 text-indigo-600 focus:ring-indigo-500"
               />
-              <span>Zapnout časový limit (40 minut)</span>
+              <span>Zapnout časový limit (30 minut)</span>
             </label>
           </div>
 
